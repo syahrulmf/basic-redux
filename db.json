@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product Andalan",
+      "price": 2500
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "price": 2700
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "price": 2750
+    },
+    {
+      "id": 4,
+      "title": "Product 4",
+      "price": 4125
+    },
+    {
+      "title": "Product 5",
+      "price": "12300",
+      "id": 5
+    },
+    {
+      "title": "Product Terbaru",
+      "price": "425000",
+      "id": 6
+    }
+  ]
+}

@@ -1,8 +1,21 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AddProduct from "./components/AddProduct";
+import EditProduct from "./components/EditProduct";
+import ShowProduct from "./components/ShowProduct";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-purple-700">
-      Hello world!
-    </h1>
+    <>
+      <BrowserRouter>
+        <div className="container mx-auto">
+          <Routes>
+            <Route path="/" element={<ShowProduct />} />
+            <Route path="add" element={<AddProduct />} />
+            <Route path="edit/:id" element={<EditProduct />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    </>
   );
 }
 
