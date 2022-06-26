@@ -2,32 +2,22 @@
   "products": [
     {
       "id": 1,
-      "title": "Product Andalan",
-      "price": 2500
+      "title": "Grit",
+      "price": "112000"
     },
     {
       "id": 2,
-      "title": "Product 2",
-      "price": 2700
+      "title": "Atomic Habits",
+      "price": "88000"
     },
     {
-      "id": 3,
-      "title": "Product 3",
-      "price": 2750
-    },
-    {
-      "id": 4,
-      "title": "Product 4",
-      "price": 4125
-    },
-    {
-      "title": "Product 5",
-      "price": "12300",
+      "title": "How To Win Friends and Influence People",
+      "price": "105000",
       "id": 5
     },
     {
-      "title": "Product Terbaru",
-      "price": "425000",
+      "title": "How To Talk With Anyone",
+      "price": "95000",
       "id": 6
     }
   ]
